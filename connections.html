@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connections Puzzle</title>
+    <link rel="stylesheet" href="connections.css" />
+</head>
+<body>
+    <h1>Connections</h1>
+    <p>Select 4 related words:</p>
+
+    <div class="grid">
+        <button onclick="toggle(this)">ROSE</button>
+        <button onclick="toggle(this)">HEART</button>
+        <button onclick="toggle(this)">CARD</button>
+        <button onclick="toggle(this)">CHOCOLATE</button>
+        <button onclick="toggle(this)">CLOCK</button>
+        <button onclick="toggle(this)">STONE</button>
+        <button onclick="toggle(this)">CLOUD</button>
+        <button onclick="toggle(this)">PAPER</button>
+    </div>
+
+    <button onclick="checkConnection()">Submit</button>
+    <p id="category" class="hidden"></p>
+    <br>
+    <a href="hub.html"><button>Back to Hub</button></a>
+
+    <script src="connections.js"></script>
+</body>
+</html>
